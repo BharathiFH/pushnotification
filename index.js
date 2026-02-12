@@ -43,6 +43,7 @@ const sendNotification = async (fcmToken) => {
     console.error("Error sending notification:", error);
   }
 };
+dfs;
 
 // Call function with FCM token of the target device
 sendNotification("your_device_fcm_token_here");
