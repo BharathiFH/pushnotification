@@ -44,6 +44,7 @@ const sendNotification = async (fcmToken) => {
   }
 };
 dfs;
+main_2;
 
 // Call function with FCM token of the target device
 sendNotification("your_device_fcm_token_here");
